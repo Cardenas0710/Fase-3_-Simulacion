@@ -1,5 +1,5 @@
 # Fase-3_-Simulacion
-
+```
 clc; clear; close all; % Limpia la consola, las variables y las figuras
 % 1. CONFIGURACION INICIAL
 horas = 1:24; % Define las 24 horas del dia
@@ -226,3 +226,4 @@ fprintf('SOC inicial: %.2f %%\n', SOC_inicial);
 fprintf('SOC final: %.2f %%\n', SOC_historial(24));
 fprintf('Energia total no suministrada: %.2f kWh\n', ...
         sum(energia_no_suministrada));
+```
